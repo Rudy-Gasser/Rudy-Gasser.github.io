@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rudy Gasser — Portfolio</title>
+<meta name="description" content="Rudy Gasser, mechanical engineering student at Notre Dame. Robotics research videos and the Brick Boss LEGO engineering channel.">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --card: #ffffff;
+    --text: #1b1d21;
+    --muted: #5d6470;
+    --line: #dcdfe4;
+    --accent: #1f5fbf;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1d2026;
+      --text: #eceef1;
+      --muted: #9aa1ad;
+      --line: #2e333b;
+      --accent: #6aa6ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 16px 64px; text-align: center; }
+  header h1 { margin: 0; font-size: 2rem; letter-spacing: -0.01em; }
+  .links { margin-top: 12px; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  section { margin-top: 44px; }
+  h2 {
+    margin: 0 0 18px;
+    font-size: 1.3rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .card {
+    display: block;
+    width: 260px;
+    max-width: 100%;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    color: var(--text);
+  }
+  .card:hover, .card:focus-visible {
+    text-decoration: none;
+    border-color: var(--accent);
+  }
+  .card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: var(--line);
+  }
+  .card span { display: block; padding: 10px 12px 12px; font-weight: 600; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Rudy Gasser</h1>
+    <div class="links">
+      <a href="https://linkedin.com/in/rudy-gasser">LinkedIn</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Undergraduate Research Projects</h2>
+    <div class="grid">
+      <a class="card" href="https://youtu.be/X9dWbeZc7CI">
+        <img loading="lazy" src="https://img.youtube.com/vi/X9dWbeZc7CI/hqdefault.jpg" alt="Thumbnail: Flippered Swimming Robot">
+        <span>Flippered Swimming Robot</span>
+      </a>
+      <a class="card" href="https://youtu.be/O2XMu7WTpzU">
+        <img loading="lazy" src="https://img.youtube.com/vi/O2XMu7WTpzU/hqdefault.jpg" alt="Thumbnail: Biomimetic High-speed Hummingbird Wings">
+        <span>Biomimetic High-speed Hummingbird Wings</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected <a href="https://www.youtube.com/@BrickBoss648">Brick Boss</a> Works</h2>
+    <div class="grid">
+      <a class="card" href="https://youtu.be/GOz9XYFifzA">
+        <img loading="lazy" src="https://img.youtube.com/vi/GOz9XYFifzA/hqdefault.jpg" alt="Thumbnail: Wave Function Generator">
+        <span>Wave Function Generator</span>
+      </a>
+      <a class="card" href="https://youtu.be/KuJsukRDm_o">
+        <img loading="lazy" src="https://img.youtube.com/vi/KuJsukRDm_o/hqdefault.jpg" alt="Thumbnail: Free-spinning 3-gimbal Gyroscope">
+        <span>Free-spinning 3-gimbal Gyroscope</span>
+      </a>
+      <a class="card" href="https://youtu.be/gBjN_ju6Fe8">
+        <img loading="lazy" src="https://img.youtube.com/vi/gBjN_ju6Fe8/hqdefault.jpg" alt="Thumbnail: Low-friction Ball Bearing">
+        <span>Low-friction Ball Bearing</span>
+      </a>
+      <a class="card" href="https://youtu.be/WTYJqwq8K3Q">
+        <img loading="lazy" src="https://img.youtube.com/vi/WTYJqwq8K3Q/hqdefault.jpg" alt="Thumbnail: Morphing Tesseract">
+        <span>Morphing Tesseract</span>
+      </a>
+      <a class="card" href="https://youtu.be/iSDAUf2gfhU">
+        <img loading="lazy" src="https://img.youtube.com/vi/iSDAUf2gfhU/hqdefault.jpg" alt="Thumbnail: Perpetual Looping Ball Machine">
+        <span>Perpetual Looping Ball Machine</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>&copy; Rudy Gasser</footer>
+</main>
+</body>
+</html>
